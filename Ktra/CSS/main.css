@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#warp
+{
+    text-align: center;
+}
+header p
+{
+    display: inline-block;
+    color: rgb(14, 252, 65);
+}
+header
+{
+    background-color: beige;
+    
+}
+header span#sp1
+{
+    margin: 0px auto;
+    font-family: "font2";
+    font-size: 50px;
+}
+header span#sp2
+{
+    display:block;
+    letter-spacing: 2px;
+}
+nav
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    height: 35px;
+}
+
+nav li {
+    float: left;
+    width: 11%;
+    height: 35px;
+    background-color: rgb(2, 100, 31);
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    line-height: 35px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+ol, ul {
+    list-style: none;
+}
+#HTML
+{
+    position: relative;
+    font-family: Serif;
+    background-color: rgb(163, 163, 163);
+    margin: 0px 85% 0px 0px;
+}
+#HTML li
+{
+    text-align: left;
+    margin-left: 10px;
+    height: 31px;
+}
+#HTML a
+{
+    text-decoration: none;
+    color: #000;
+}
+aside
+{
+    margin-left: 20%;
+}
+.img
+{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+#nd
+{
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+#nd h1
+{
+    font-family: serif;
+    font-size: 50px;
+    margin-bottom:20px;
+}
+#nd table td
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#tb1
+{
+    width: 200%;
+}
+#td1, #td2
+{
+    font-size: 30px;
+    color: green;
+}
+@font-face
+{
+    font-family: "font2";
+    src: url(/Font/LUV\ Bouchers\ X1.ttf);
+}
