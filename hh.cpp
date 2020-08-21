@@ -9,7 +9,7 @@ struct hoahoc
 };
 int BCNN(int a,int b)
 {
-    for(int i=2;i<=a*b;i++)
+    for(int i=1;i<=a*b;i++)
     {
         if(i%a == 0 && i%b == 0)
         {
