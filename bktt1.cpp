@@ -41,9 +41,10 @@ public:
         {
             if(*(arr+i) == temp )
             {
-                cout << i << " ";
+                cout << i+1 << " ";
             }
         }
+        cout << endl;
     }
     void TimSoLanXuatHien(int n)
     {
@@ -61,7 +62,12 @@ public:
 
 int main()
 {
+    Mang m1;
+    m1.NhapMang();
+    m1.XuatMang();
+    m1.TimMax();
     int n;
-    cout << "Nhap so pha tu: ";
+    cout << "Nhap so can dem: ";
     cin >> n;
+    m1.TimSoLanXuatHien(n);
 }
