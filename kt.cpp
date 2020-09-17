@@ -90,8 +90,11 @@ int main()
     cin >> n;
     SinhVien dsSV[n];
     NhapDanhSach(dsSV,n);
+    cout << "--------------------" << endl;
     XuatDanhSach(dsSV,n);
+    cout << "--------------------" << endl;
     SortDanhSach(dsSV,n);
+    cout << "--------------------" << endl;
     float m;
     cout << "Nhap diem can tim: ";
     cin >> m;
